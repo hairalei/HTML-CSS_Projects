@@ -1,7 +1,8 @@
-/* COLORS */
+/*///// COLORS//// */
 /* #00C676 */
 
-/* BLACKS */
+/* //////BLACKS/////// */
+/* #333 */
 
 * {
   margin: 0;
@@ -15,10 +16,50 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
+  color: #777;
 }
 
 .logo {
   font-size: 2rem;
   font-weight: 900;
   color: #00c676;
+}
+
+/* NAVIGATION SECTION */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.6rem;
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  font-size: 1.4rem;
+}
+
+.nav_link:link,
+.nav_link:visited {
+  text-decoration: none;
+  /* color: #333; */
+  color: inherit;
+}
+
+.nav_link:hover,
+.nav_link:active {
+  color: #00c676;
+}
+
+.btn--main {
+  color: #fff;
+  background-color: #00c676;
+  padding: 6px 24px;
+  border-radius: 1rem;
+
+  text-decoration: none;
+  font-weight: 700;
 }
