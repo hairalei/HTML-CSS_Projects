@@ -19,6 +19,11 @@ body {
   color: #777;
 }
 
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
 .logo {
   font-size: 2rem;
   font-weight: 900;
@@ -39,7 +44,7 @@ body {
   display: flex;
   align-items: center;
   gap: 3.2rem;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 .nav_link:link,
@@ -47,6 +52,7 @@ body {
   text-decoration: none;
   /* color: #333; */
   color: inherit;
+  font-weight: 700;
 }
 
 .nav_link:hover,
@@ -54,12 +60,27 @@ body {
   color: #00c676;
 }
 
-.btn--main {
+.btn--main:link,
+.btn--main:visited {
   color: #fff;
   background-color: #00c676;
-  padding: 6px 24px;
+  padding: 0.6rem 2.4rem;
   border-radius: 1rem;
+  display: inline-block;
 
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 900;
+  transition: all 0.2s;
+}
+
+.btn--main:hover {
+  background-color: #009f53;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+.btn--main:active {
+  background-color: #009f53;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
 }
