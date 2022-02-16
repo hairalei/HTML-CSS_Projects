@@ -2,7 +2,7 @@
 /* #00C676    #009f53*/
 
 /* //////BLACKS/////// */
-/* #777 */
+/* #777  #f0f0f2*/
 
 * {
   margin: 0;
@@ -85,6 +85,10 @@ body {
 }
 
 /*///////////////// HERO SECTION //////////////////// */
+.section-hero {
+  margin-bottom: 9.6rem;
+}
+
 .hero {
   display: grid;
   grid-template-columns: 40fr 60fr;
@@ -139,3 +143,5 @@ a.hero_link:link {
   font-size: 2rem;
   padding: 1.6rem;
 }
+
+/*///////////////// FEATURES SECTION //////////////////// */
