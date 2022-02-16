@@ -261,7 +261,7 @@ a.hero_link:link {
   gap: 6.4rem;
   background-color: #f0f0f2;
   padding: 12.8rem 4.8rem;
-  margin-bottom: 9.6rem;
+  margin-bottom: 4.8rem;
 }
 
 .signup-textbox {
@@ -317,6 +317,7 @@ a.hero_link:link {
   font-size: 1.6rem;
   border-radius: 100rem;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .submit:hover {
@@ -328,4 +329,60 @@ a.hero_link:link {
 .submit:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   transform: translateY(-1px);
+}
+
+/*/////////////// FOOTER SECTION ////////////////// */
+
+.section-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  line-height: 1.5;
+  /* width: 100%; */
+  /* margin: 0 auto; */
+
+  padding-bottom: 4.8rem;
+}
+
+.footer-heading {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 1rem;
+  /* flex-direction: column; */
+}
+
+.footer-icon {
+  font-size: 2rem;
+  /* padding-right: 1rem; */
+}
+
+.footer-text:link,
+.footer-text:visited,
+.footer-iconlink:link,
+.footer-iconlink:visited {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #999;
+  display: block;
+}
+
+.footer-text:hover,
+.footer-text:active,
+.footer-iconlink:hover,
+.footer-iconlink:active {
+  color: #009f53;
+}
+
+.footer {
+  background-color: #444;
+  font-size: 1.2rem;
+  color: #f0f0f2;
+  padding: 1.4rem;
+  text-align: center;
 }
