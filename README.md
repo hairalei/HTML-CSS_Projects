@@ -1,5 +1,6 @@
-#VReality Landing Page
-A simple non-responsive landing page.
+#VReality Landing Page:
+
+-A simple non-responsive landing page.
 A minimalist design.
 
 Live:
