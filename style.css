@@ -171,6 +171,7 @@ a.hero_link:link {
   font-weight: 700;
   margin-bottom: 1.4rem;
   color: #555;
+  height: 4rem;
 }
 
 .features--description {
@@ -186,6 +187,7 @@ a.hero_link:link {
 
 .features-box {
   width: 25%;
+  height: 30rem;
   padding: 2rem;
   padding-bottom: 3rem;
   background-color: #fff;
@@ -204,4 +206,5 @@ a.hero_link:link {
 .features-cardtext {
   color: #999;
   height: 50%;
+  /* transform: translateY(rem); */
 }
