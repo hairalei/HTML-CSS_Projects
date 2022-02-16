@@ -37,7 +37,7 @@ body {
   align-items: center;
 
   padding: 1.6rem;
-  margin-bottom: 9.6rem;
+  margin-bottom: 12.8rem;
 }
 
 .nav_links {
@@ -86,7 +86,7 @@ body {
 
 /*///////////////// HERO SECTION //////////////////// */
 .section-hero {
-  margin-bottom: 9.6rem;
+  margin-bottom: 12.8rem;
 }
 
 .hero {
@@ -149,7 +149,8 @@ a.hero_link:link {
   display: flex;
   flex-direction: column;
   background-color: #f0f0f2;
-  padding: 7.6rem 0;
+  padding: 12.8rem 0;
+  margin-bottom: 9.6rem;
 }
 
 .feature-textbox {
@@ -206,5 +207,48 @@ a.hero_link:link {
 .features-cardtext {
   color: #999;
   height: 50%;
-  /* transform: translateY(rem); */
+  line-height: 1.1;
+}
+
+/*/////////////// TESTIMONIALS SECTION ////////////////// */
+.section-testimonials {
+  text-align: center;
+  margin-bottom: 9.6rem;
+}
+
+.testimonials-img {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 100rem;
+  margin-bottom: 1rem;
+}
+
+.testimonials-name {
+  font-size: 1.6rem;
+  color: #999;
+}
+
+.testimonials-position {
+  font-size: 1rem;
+  color: #999;
+  margin-bottom: 2rem;
+}
+
+.testimonials-testimony {
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+
+.testimonials-boxes {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.testimonials-box {
+  padding: 2.4rem 0;
+}
+
+.testimonials-box span {
+  font-size: 3rem;
+  color: rgb(219, 219, 49);
 }
