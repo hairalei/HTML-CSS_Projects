@@ -237,6 +237,7 @@ a.hero_link:link {
 .testimonials-testimony {
   font-size: 1.6rem;
   line-height: 1.1;
+  margin-bottom: 1rem;
 }
 
 .testimonials-boxes {
@@ -249,7 +250,7 @@ a.hero_link:link {
 }
 
 .testimonials-box span {
-  font-size: 3rem;
+  font-size: 1.6rem;
   color: rgb(219, 219, 49);
 }
 
