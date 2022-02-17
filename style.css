@@ -12,6 +12,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
   font-size: 2rem;
   font-weight: 900;
   color: #00c676;
+  text-decoration: none;
 }
 
 /*///////////////// NAVIGATION SECTION //////////////////// */
@@ -38,6 +40,17 @@ body {
 
   padding: 1.6rem;
   margin-bottom: 12.8rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6.4rem;
+  padding: 0 15%;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 999;
 }
 
 .nav_links {
@@ -86,7 +99,7 @@ body {
 
 /*///////////////// HERO SECTION //////////////////// */
 .section-hero {
-  margin-bottom: 12.8rem;
+  margin: 12.8rem auto;
 }
 
 .hero {
@@ -150,7 +163,7 @@ a.hero_link:link {
   flex-direction: column;
   background-color: #f0f0f2;
   padding: 12.8rem 0;
-  margin-bottom: 9.6rem;
+  padding-bottom: 15rem;
 }
 
 .feature-textbox {
@@ -214,6 +227,7 @@ a.hero_link:link {
 .section-testimonials {
   text-align: center;
   margin-bottom: 9.6rem;
+  padding-top: 8rem;
 }
 
 .testimonials-img {
