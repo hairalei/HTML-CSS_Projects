@@ -123,7 +123,6 @@ body {
   font-weight: 900;
   font-size: 5.6rem;
   width: 100%;
-  /* margin-bottom: 9.8rem; */
 }
 
 .heading--primary {
@@ -172,12 +171,13 @@ a.hero_link:link {
 
 .heading--others {
   font-size: 1.2rem;
-  color: #00c676;
+  color: #999;
 }
 
 .heading--secondary {
   font-size: 2.8rem;
   margin-bottom: 1.2rem;
+  color: #00c676;
 }
 
 .heading-tertiary {
@@ -208,7 +208,6 @@ a.hero_link:link {
   font-size: 1.6rem;
   border-radius: 1rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); */
 }
 
 .icon {
@@ -272,7 +271,6 @@ a.hero_link:link {
 
 .section-signup {
   display: flex;
-  /* flex-direction: column; */
   gap: 6.4rem;
   background-color: #f0f0f2;
   padding: 12.8rem 4.8rem;
@@ -282,7 +280,6 @@ a.hero_link:link {
 .signup-textbox {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
 }
 
@@ -353,8 +350,6 @@ a.hero_link:link {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 
   line-height: 1.5;
-  /* width: 100%; */
-  /* margin: 0 auto; */
 
   padding-bottom: 4.8rem;
 }
@@ -369,12 +364,10 @@ a.hero_link:link {
 .footer-icons {
   display: flex;
   gap: 1rem;
-  /* flex-direction: column; */
 }
 
 .footer-icon {
   font-size: 2rem;
-  /* padding-right: 1rem; */
 }
 
 .footer-text:link,
@@ -397,7 +390,40 @@ a.hero_link:link {
 .footer {
   background-color: #444;
   font-size: 1.2rem;
+  letter-spacing: 2px;
   color: #f0f0f2;
   padding: 1.4rem;
   text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.year {
+  margin-right: 0.5rem;
+}
+
+.git-logo {
+  font-size: 2rem;
+  color: #eee;
+  margin-left: 0.5rem;
+}
+
+.git-logo:hover,
+.git-logo:active {
+  color: #fff;
+  animation: github 0.5s infinite ease;
+}
+
+@keyframes github {
+  0% {
+    transform: rotate(-15deg) scale(1.5);
+  }
+  50% {
+    transform: rotate(15deg) scale(1.5);
+  }
+  100% {
+    transform: rotate(-15deg) scale(1.5);
+  }
 }
