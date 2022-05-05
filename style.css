@@ -537,7 +537,7 @@ a.hero_link:link {
     font-size: 2rem;
     letter-spacing: 1px;
     line-height: 1.4;
-    text-align: justify;
+    text-align: center;
   }
 
   header {
@@ -622,5 +622,46 @@ a.hero_link:link {
     font-size: 2rem;
     height: 35rem;
     padding: 4rem;
+  }
+
+  .nav_links {
+    font-size: 4rem;
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: 30%;
+  }
+
+  .nav_links {
+    transform: translateY(50%);
+    font-size: 4rem;
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 275px) {
+  html {
+    font-size: 20%;
+  }
+}
+
+@media (max-width: 185px) {
+  html {
+    font-size: 15%;
   }
 }
